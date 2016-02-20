@@ -12,7 +12,7 @@ npm install console-to-logger --save-dev
 With default console replacement
 
 ```shell
-npm install logify-console --save
+npm install simple-logging-console --save
 ```
 
 
@@ -23,7 +23,7 @@ var b = browserify({...});
 
 b.plugin('console-to-logger', {
   'base': 'app/',
-  'console': 'logify-console'
+  'console': 'simple-logging-console'
 });
 
 ```
