@@ -1,12 +1,12 @@
-# logify [![Build Status](https://travis-ci.org/bealearts/logify.svg)](https://travis-ci.org/bealearts/logify) [![npm version](https://badge.fury.io/js/logify.svg)](http://badge.fury.io/js/logify)
+# console-to-logger [![Build Status](https://travis-ci.org/bealearts/console-to-logger.svg)](https://travis-ci.org/bealearts/console-to-logger) [![npm version](https://badge.fury.io/js/console-to-logger.svg)](http://badge.fury.io/js/console-to-logger)
 
-A Browserify plugin which wraps console.log() etc, to control and format their output
+A Browserify plugin which adds a custom console implementation to modules, to control and format their console.log() etc output
 
 
 ## Installation
 
 ```shell
-npm install logify --save-dev
+npm install console-to-logger --save-dev
 ```
 
 With default console replacement
@@ -21,7 +21,7 @@ npm install logify-console --save
 
 var b = browserify({...});
 
-b.plugin('logify', {
+b.plugin('console-to-logger', {
   'base': 'app/',
   'console': 'logify-console'
 });

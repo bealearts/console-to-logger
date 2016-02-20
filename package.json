@@ -1,6 +1,6 @@
 {
-  "name": "logify",
-  "description": "A Browserify plugin which wraps console.log() etc, to control and format their output",
+  "name": "console-to-logger",
+  "description": "A Browserify plugin which adds a custom console implementation to modules, to control and format their console.log() etc output",
   "version": "1.0.0",
   "main": "lib/logify.js",
   "homepage": "https://github.com/bealearts/logify",
@@ -28,13 +28,13 @@
     "test": "echo test"
   },
   "dependencies": {
-    "through2": "^0.6.3",
-    "logify-console": "*"
+    "through2": "^0.6.3"
   },
   "devDependencies": {},
   "keywords": [
     "browserify",
-    "transform",
+    "plugin",
+    "browserify-plugin",
     "log",
     "logging",
     "console"
