@@ -1,7 +1,7 @@
 {
   "name": "logify",
   "description": "A Browserify plugin which wraps console.log() etc, to control and format their output",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "lib/logify.js",
   "homepage": "https://github.com/bealearts/logify",
   "author": {
@@ -31,8 +31,7 @@
     "through2": "^0.6.3",
     "logify-console": "*"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "keywords": [
     "browserify",
     "transform",
