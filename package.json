@@ -2,23 +2,23 @@
   "name": "console-to-logger",
   "description": "A Browserify plugin which adds a custom console implementation to modules, to control and format their console.log() etc output",
   "version": "1.0.0",
-  "main": "lib/logify.js",
-  "homepage": "https://github.com/bealearts/logify",
+  "main": "lib/console-to-logger.js",
+  "homepage": "https://github.com/bealearts/console-to-logger",
   "author": {
     "name": "David Beale",
     "url": "http://bealearts.co.uk/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bealearts/logify.git"
+    "url": "git://github.com/bealearts/console-to-logger.git"
   },
   "bugs": {
-    "url": "https://github.com/bealearts/logify/issues"
+    "url": "https://github.com/bealearts/console-to-logger/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/bealearts/logify/blob/master/LICENSE"
+      "url": "https://github.com/bealearts/console-to-logger/blob/master/LICENSE"
     }
   ],
   "engines": {
