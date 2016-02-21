@@ -3,9 +3,8 @@ node_js:
 - '0.12'
 deploy:
   provider: npm
-  email: david.beale@bealearts.co.uk
   api_key:
-    secure: kOkPruNaipAoPdoojPiRjaJ7iRYbWaYrvlJ1ZWtICFxX7JuwINZQzN5EKjeOdRLjh05WRocy2KwTXZ5TvPjNx6KTBe6p2Ut/NnDmW3XdklyrSSSEJ95c+G6XpcNNItNrnEmI4PHLa5lfIrEL1PuP0NLegksd+9ElgUpTDuxsaeY=
+    secure: Pfg0lFqWwIcfNWSv7u7vaAfhHyfRnby7HF1btW2w/1T/7Wz3VmImkcPuz9CIu0gD3KpKuT5zj7zmQGms7MAXioFXT0yPjorf6MvSrhKNGh1NW/xxE1HPB66390WrUJ5TRf7cRBUXd0aFcHs1XDvFmmRnglMOQwS9U5MEaq7WMvNt5/LICY4oH3qvRTVKhdNIUsdWh51HI/aeusEXF0HKgoOKB+/7qSSGNbaCnXa+n3HCzL3wsfrSnYNEiRtWY2KKgyPfNhWY0JOD8+oRUwVMySJRxsC9K1QQMGggIXiFXdLuWlPaUh0FZlaoC3uCOOMMKRQhvc6u1A4OtB7/A004U1/lY16I5L3iiZr1xpS5A58R0o4pq4q2guSJYRMUaEo13/JZ73kJMeMUS3+jt8ypoeAwti2j0MBHwbghSB8Esk5NaWGqveJdu9tGTiRtkqdGDPQG0MCCow376ap5RhWhCeqxSwoNPX7td3ztE6RM2r4fbqrTQT/+GHdxYzrAYv3shBlz5iF50AAu8KBwGB1hJloyyiZ+UZJ0auy/EIi2N+8pPTNLjw3Zi8eeRxItBzYF3ycix+hDhQsg4fXRFu4yaLv7SgUUeXcTyF75eCjr22YXnThRM4KOvwHXwH1kGhS48eLG2aR3dP+4f8kLgOIW5fQ7lRlwu68hMXdDLgjpHgI=
   on:
     all_branches: true
     tags: true
